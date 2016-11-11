@@ -1,1 +1,8 @@
 Builds
+*.log
+Library/metadata/*
+Library/ShaderCache/*
+Temp
+wiki-graph.userprefs
+.gitignore~
+
