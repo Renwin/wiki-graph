@@ -1,6 +1,6 @@
 # Wiki-Graph
 ## Disentangling the web of knowledge
----
+
 ### Quick Start
 
 1. Install Unity ( [Download](https://unity3d.com/))
@@ -11,7 +11,7 @@
     2. Select your system
     3. Click "Build and Run" (use wiki-graph/Builds folder)
 4. Check for errors (note: In linux debug error logs recorded ~/.config/unity3d/DefaultCompany/wiki-graph)
----
+
 ### Main items
 
 1. Prefabs: prefabricated templates that are the equivalent of objects in the virtual world. They have components (scripts, meshes, materials) attached to them.
@@ -22,3 +22,7 @@
 2. Plugins - various libraries and internal code that is used for the game. I wrote "Program.cs", which includes basic incarnations of how to connect to wikipedia and drag references to other sites from it (needs further work).
 
 3. Scenes: Folder for different variants of the world, but ours is simple
+
+### Node options
+1. To look around in 3D: left click + rotate mouse (standard FPS strafe)
+2. To open node option: Expand node/Open page: left click on node
